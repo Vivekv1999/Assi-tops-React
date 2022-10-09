@@ -1,0 +1,24 @@
+life cycle method in class componet 
+life cycle mwthod only in class component,in functional component class component life cycle method work done by hooks.
+
+1.component Did Mount
+in class componet first constructor is run and then html and js render then component did mount is load 
+use-->in apicall
+   --->thant function depend on html that function we wrote in componetDidMount so first html is render then function is work so,code is not break and application work smoothly
+
+2..component Did Update
+---->componentDidUpadte is render when only state or props is change.
+--->we do not update state in componentDidUpadte beacuse it lead to infinite loop beacause componentDidUpadte is render enery state or props is change,but if required to upadte state or props in componentDidUpadte then we conditionaly update state so it does not lead infinite loop.
+
+3.should Component upadte
+--->this is in upadting phase, when props or state upadte we conditionaly render component with shouldComponetUpdate
+--->we can controal rendering with this
+--->when state is upadte which call first shouldComponetUpdate or componentDidUpadte?
+    shouldComponetUpdate is call first and if return is true then componentDidUpadte is call and if return is false is false then componentDidUpadte is not called.
+----->if return is true then only upadte stae is rendring...
+
+4..component Will Unmount
+----->componentewillunmount is call when element is remove from dom
+--->component will unmount will call just before element is remove
+
+
