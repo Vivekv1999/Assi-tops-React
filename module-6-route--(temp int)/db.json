@@ -1,0 +1,55 @@
+{
+  "user": [
+    {
+      "r_id": 1,
+      "email": "admin@gmail.com",
+      "password": "a123",
+      "id": 1
+    },
+    {
+      "name": "yash",
+      "email": "yash@gmoil.com",
+      "password": "123",
+      "r_id": 2,
+      "id": 12
+    },
+    {
+      "name": "VINI",
+      "email": "vini@gmail.com",
+      "password": "123",
+      "r_id": 2,
+      "id": 14
+    },
+    {
+      "name": "JIT",
+      "email": "JIt@gmail.com",
+      "password": "123",
+      "r_id": 2,
+      "id": 17
+    },
+    {
+      "name": "ubhantu",
+      "email": "java@gmail.com",
+      "password": "12$",
+      "r_id": 2,
+      "id": 18
+    },
+    {
+      "name": "sid",
+      "email": "sid@gmail.com",
+      "password": "asd",
+      "r_id": 2,
+      "id": 19
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
