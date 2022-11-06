@@ -10,6 +10,8 @@ import Usestate from './module-4-classcomponent/Usestate';
 import Useref from './module-4-classcomponent/Useref';
 import Userefff from './module-4-classcomponent/Useref';
 import UseEffect from './module-4-classcomponent/UseEffect';
+import Navbar from './module-6/Navbar';
+import Top2 from './module-6/Top2';
 
 function App() {
   return (
@@ -21,8 +23,11 @@ function App() {
    {/* <Componentwillunmount /> */}
    {/* <Listview /> */}
    {/* <Usestate /> */}
-   <UseEffect />
+   {/* <UseEffect /> */}
    {/* <Userefff /> */}
+
+{/* <Top2 /> */}
+<Navbar/>
 
 
    </>
