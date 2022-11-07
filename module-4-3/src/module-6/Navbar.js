@@ -3,10 +3,10 @@ import React from 'react'
 
 
 export default function Navbar() {
-    
-    
+
+
     return (
-        <div classname="navbar1">
+        <div className="navbar1" >
             <div className="dropdown nav-left">
                 <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                     Browser all categories
@@ -16,10 +16,11 @@ export default function Navbar() {
                     <li><a className="dropdown-item" href="#">Another action</a></li>
                     <li><a className="dropdown-item" href="#">Something else here</a></li>
                 </ul>
-                <i className="fa-sharp fa-solid fa-fire mx-2">Hot Deal</i>
             </div>
-            <div classname="nav-center">
-                <ul>
+            <div className='middle'>
+                <i className="fa-sharp fa-solid fa-fire mx-2 r">Hot Deal</i>
+
+                <ul className="link-nav">
                     <li>Home</li>
                     <li>About</li>
                     <li>Shop</li>
@@ -31,12 +32,16 @@ export default function Navbar() {
                 </ul>
             </div>
             <div className="nav-right">
-            <i class="fa-solid fa-headset w-100"></i>
-            <div className="con">
-            <h5>1900-888</h5>
-            <p>24/7 Support Center</p>
+                <div className="icon">
+                    <i className="fa-solid fa-headset j"/>
+                </div>
+                <div className="div">
+                <h6 className="h5">1900-888</h6>
+                <h6 className="h5">24/7 Support Center</h6>
 
-            </div>
+                </div>
+               
+
             </div>
         </div>
 
