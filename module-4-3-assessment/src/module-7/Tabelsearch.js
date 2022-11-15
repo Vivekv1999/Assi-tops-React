@@ -41,8 +41,6 @@ export default function Tabelsearch() {
 
         }
 
-
-
     return (
         <>
             <h1>Search product list</h1>

@@ -10,8 +10,8 @@ import Usestate from './module-4-classcomponent/Usestate';
 import Useref from './module-4-classcomponent/Useref';
 import Userefff from './module-4-classcomponent/Useref';
 import UseEffect from './module-4-classcomponent/UseEffect';
-// import Navbar from './module-6/Navbar';
-import Navbar from './module-7/redux/Navbar';
+import Navbar from './module-6/Navbar_m6';
+// import Navbar from './module-7/redux/Navbar';
 import {
   BrowserRouter,
   Routes,
@@ -25,10 +25,15 @@ import Top2 from './module-6/Top2';
 import Tabelsearch from './module-7/Tabelsearch';
 import Login7 from './module-7/redux/Login7';
 import Signup7 from './module-7/redux/Signup7';
+import Asseemnt from './ASSEMENT/Asseemnt';
 
 function App() {
   return (
    <>
+   {/* ========== assement======= */}
+    <Asseemnt/>
+
+   {/* ====== module 3 ========== */}
    {/* <Onclick /> */}
    {/* <Compontdidmount /> */}
    {/* <Compontdidupdate/> */}
@@ -39,22 +44,22 @@ function App() {
    {/* <UseEffect /> */}
    {/* <Userefff /> */}
 
-{/* <Top2 /> */}
-{/* <Navbar/> */}
+{/* <Top2 />
+<Navbar/> */}
 
 
 {/* ==============>module-7  ===================== */}
 {/* <Tabelsearch/> */}
 
 
-<BrowserRouter>
+{/* <BrowserRouter>
 <Navbar/>
 <Routes>
   <Route path='/login' element={<Login7 />}/>
   <Route path='/signup' element={<Signup7 />}/>
 </Routes>
 
-</BrowserRouter>
+</BrowserRouter> */}
 
 
    </>
